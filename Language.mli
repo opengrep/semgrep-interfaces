@@ -4,6 +4,7 @@
 type t =
 | Apex
 | Bash
+| Brainfuck
 | C
 | Cairo
 | Circom

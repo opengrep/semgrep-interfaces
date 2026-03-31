@@ -4,6 +4,7 @@
 type t =
 | Apex
 | Bash
+| Brainfuck
 | C
 | Cairo
 | Circom
@@ -103,6 +104,19 @@ let list = [
   excluded_exts = [];
   reverse_exts = None;
   shebangs = [{|bash|}; {|sh|}];
+  tags = [];
+};
+{
+  id = Brainfuck;
+  id_string = "brainfuck";
+  name = "Brainfuck";
+  keys = [{|brainfuck|}];
+  exts = [{|.bf|}];
+  maturity = Develop;
+  example_ext = None;
+  excluded_exts = [];
+  reverse_exts = None;
+  shebangs = [];
   tags = [];
 };
 {

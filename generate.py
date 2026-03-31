@@ -216,6 +216,14 @@ LANGUAGES : List[Language] = [
     ),
     Language(
         comment="",
+        id_="brainfuck",
+        name="Brainfuck",
+        keys=["brainfuck"],
+        exts=[".bf"],
+        maturity=Maturity.DEVELOP,
+    ),
+    Language(
+        comment="",
         id_="c",
         name="C",
         keys=["c"],

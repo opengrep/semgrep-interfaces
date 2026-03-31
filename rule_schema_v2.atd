@@ -147,6 +147,7 @@ type language = [
   | Apex         <json name="apex">
   | Bash         <json name="bash">
   | Sh           <json name="sh">
+  | Brainfuck    <json name="brainfuck">
   | C            <json name="c">
   | Clojure      <json name="clojure">
   | Cpp          <json name="cpp">

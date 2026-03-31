@@ -833,6 +833,7 @@ $defs:
             - apex
             - bash
             - sh
+            - brainfuck
             - c
             - clojure
             - cpp

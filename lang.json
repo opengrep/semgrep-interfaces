@@ -40,6 +40,23 @@
     "tags": []
   },
   {
+    "id": "brainfuck",
+    "name": "Brainfuck",
+    "keys": [
+      "brainfuck"
+    ],
+    "maturity": "develop",
+    "exts": [
+      ".bf"
+    ],
+    "example_ext": null,
+    "excluded_exts": [],
+    "reverse_exts": null,
+    "shebangs": [],
+    "is_target_language": true,
+    "tags": []
+  },
+  {
     "id": "c",
     "name": "C",
     "keys": [
