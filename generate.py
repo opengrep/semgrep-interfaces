@@ -622,6 +622,16 @@ not ambiguous is welcome here.
         maturity=Maturity.ALPHA,
         shebangs=[]
     ),
+    Language(
+        comment="",
+        id_="zig",
+        name="Zig",
+        keys=["zig"],
+        exts=[".zig", ".zon"],
+        example_ext=".zig",
+        maturity=Maturity.DEVELOP,
+        shebangs=[]
+    ),
     ########################################################################
     # Entries that are not programming languages or data formats
     ########################################################################
