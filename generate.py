@@ -265,6 +265,15 @@ LANGUAGES : List[Language] = [
     ),
     Language(
         comment="",
+        id_="crystal",
+        name="Crystal",
+        keys=["crystal", "cr"],
+        exts=[".cr"],
+        maturity=Maturity.DEVELOP,
+        shebangs=["crystal"]
+    ),
+    Language(
+        comment="",
         id_="csharp",
         name="C#",
         keys=["csharp", "c#"],

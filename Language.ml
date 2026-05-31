@@ -9,6 +9,7 @@ type t =
 | Circom
 | Clojure
 | Cpp
+| Crystal
 | Csharp
 | Dart
 | Dockerfile
@@ -168,6 +169,19 @@ let list = [
   excluded_exts = [];
   reverse_exts = None;
   shebangs = [];
+  tags = [];
+};
+{
+  id = Crystal;
+  id_string = "crystal";
+  name = "Crystal";
+  keys = [{|crystal|}; {|cr|}];
+  exts = [{|.cr|}];
+  maturity = Develop;
+  example_ext = None;
+  excluded_exts = [];
+  reverse_exts = None;
+  shebangs = [{|crystal|}];
   tags = [];
 };
 {

@@ -837,6 +837,8 @@ $defs:
             - clojure
             - cpp
             - c++
+            - cr
+            - crystal
             - csharp
             - c#
             - dart

@@ -9,6 +9,7 @@ type t =
 | Circom
 | Clojure
 | Cpp
+| Crystal
 | Csharp
 | Dart
 | Dockerfile

@@ -142,6 +142,26 @@
     "tags": []
   },
   {
+    "id": "crystal",
+    "name": "Crystal",
+    "keys": [
+      "crystal",
+      "cr"
+    ],
+    "maturity": "develop",
+    "exts": [
+      ".cr"
+    ],
+    "example_ext": null,
+    "excluded_exts": [],
+    "reverse_exts": null,
+    "shebangs": [
+      "crystal"
+    ],
+    "is_target_language": true,
+    "tags": []
+  },
+  {
     "id": "csharp",
     "name": "C#",
     "keys": [
