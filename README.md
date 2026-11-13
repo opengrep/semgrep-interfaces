@@ -1,3 +1,7 @@
+# THIS REPOSITORY IS ARCHIVED
+
+It is now vendored into opengrep.
+
 # semgrep-interfaces
 
 This repository contains IDL (Interface Definition Language) files specifying
